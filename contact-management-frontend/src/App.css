@@ -1,0 +1,60 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #3f51b5;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+form .MuiTextField-root {
+  flex: 1 1 calc(50% - 15px);
+  min-width: 200px;
+}
+
+form .MuiButton-root {
+  flex: 1 1 100%;
+  max-width: 200px;
+  margin: auto;
+}
+
+.table-container {
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.MuiTableCell-head {
+  background-color: #3f51b5;
+  color: white;
+  font-weight: bold;
+}
+
+.MuiTableCell-body {
+  font-size: 14px;
+}
+
+.actions .MuiButton-root {
+  margin-right: 10px;
+  text-transform: capitalize;
+}
